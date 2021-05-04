@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #E5E5E5;
+}
+.tutor{
+    width: 60%;
+    background: rgb(255, 255, 255);
+    margin: 20px auto;
+    
+    outline:auto rgb(8, 8, 8);
+}
+/* header start */
+header{
+    display: flex;
+    background-color: #0D3451;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+height: 3.12rem;
+}
+
+.logo{
+    
+width: 10.25rem;
+height: 1.68rem; 
+
+font-family: 'Noto Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 1.5rem;
+line-height: 2.06rem;
+text-align: center;
+}
+.logo a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.logo a:hover{
+    text-decoration: underline;
+}
+.navbar {
+     width: 50%;  
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a{
+    font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 0.75rem;
+line-height: 0.93rem;
+/* identical to box height */
+
+/* text-align: center; */
+display: flex;
+
+align-items: center;
+
+color: #FFFFFF;
+text-decoration: none;
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+/* header end */
+/* main start */
+.main{
+    display: flex;
+    
+}
+.box1{
+    width: 13.18rem;
+height: 18.56rem;
+
+background: #E2EDFF;
+margin-top: 2.93rem;
+margin-left: 6.37rem;
+}
+.Technical{
+    width: 11.81rem;
+height: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 2.25rem;
+line-height: 2.75rem;
+text-align: center;
+
+color: #0D3451;
+margin-top: 4.12rem;
+margin-left: 0.43rem ;
+
+}
+.people{
+    font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 1.12rem;
+line-height: 1.37rem;
+/* identical to box height */
+text-align: center;
+color: #0D3451;
+margin-top: 4.18rem;
+}
+.box2{
+    width: 28.12rem;
+height: 18.56rem;
+
+background: #FFFFFF;
+border: 0.06rem solid #E0DEDE;
+box-sizing: border-box;
+margin-top: 2.93rem;
+
+}
+.short input{
+    width: 25.93rem;
+height: 2rem;
+
+background: #FFFFFF;
+/* border: 1px solid #F67A06; */
+box-sizing: border-box;
+border-radius: 0.12rem;
+margin-top: 1.06rem;
+margin-left: 1.43rem;
+}
+
+.category select{
+    width: 25.93rem;
+height: 2rem;
+
+background: #FFFFFF;
+/* border: 1px solid #787373; */
+box-sizing: border-box;
+border-radius: 0.12rem;
+ /* margin-top: 17px;  */
+margin-left: 1.43rem ;
+
+
+}
+.details input{
+    width: 25.93rem;
+height: 10rem;
+
+background: #FFFFFF;
+/* border: 1px solid #787373; */
+box-sizing: border-box;
+border-radius: 0.12rem;
+/* margin-top: 17px; */
+margin-left: 1.43rem ;
+}
+/* main end */
+/* button start */
+.buttonstyle{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.37rem;
+}
+.submit{
+    width: 9.37rem;
+height: 2.31rem;
+
+background: #3062AD;
+border-radius: 3.12rem;
+
+}
+.cancel{
+    width: 9.37rem;
+height: 2.31rem;
+
+background: #FFFFFF;
+border-radius: 3.12rem;
+margin-left: 3.93rem;
+
+}
+/* button end */
+
+/* footer start */
+.foot{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.68rem;
+    line-height: 0.81rem;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    height: 2.37rem;
+    background: #F3F3F3;
+    margin-top: 0.75rem;
+}
+.foot a{
+    text-decoration: none;
+    color: #000000;
+    margin: 0.93rem 0.62rem;
+}
+.foot  select{
+    font-family: 'Montserrat', sans-serif;;
+font-style: normal;
+font-weight: normal;
+font-size: 0.68rem;
+line-height: 0.81rem;
+text-align: center;
+border: none;
+margin: 0.81rem 0.62rem;
+}
+
+
+/* footer end */
+
+
+@media only screen and (max-width: 600px){
+    header{
+        height: 40vh;
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+       
+    }
+    .main{
+        flex-direction: column;
+    }
+    .box1{
+        margin-left: 3.37rem;
+    }
+    .box2{
+        width: 20.12rem; 
+    }
+    .short input{
+        width: 20.93rem;
+    }
+    .category select{
+        width: 20.93rem;
+    }
+    .details input{
+        width: 20.92rem;
+    }
+    .buttonstyle{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cancel{
+        margin: 10px 0px ;
+    }
+    .foot{
+        flex-direction: column;
+        height: auto;
+    }
+}
